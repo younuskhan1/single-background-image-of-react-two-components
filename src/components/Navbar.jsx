@@ -9,6 +9,11 @@ const Navbar = () => {
   const handleClick =() => setClick(!click);
   const[color, setColor] = useState(false);
   const changeColor =() =>{
+
+// we will increase the value of the below if condition, when we will add additional
+// contents under the HeroImage component in home page component. 
+// because we do not have any content below for this reason we cannot scroll below.
+
     if(window.scrollY >=1){
         setColor(true);
     }else{
