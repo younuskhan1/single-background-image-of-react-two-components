@@ -41,11 +41,11 @@ const Navbar = () => {
                     <Link to="/contact">Contact</Link>
                 </li>
             </ul>
-            <div className="hamburger" onClick={ handleClick}>
+            <div className="hamburger" onClick = {handleClick}>
                 {
-                click? (<FaTimes size={20} style={{color: "#fff"}}></FaTimes>)
+                click? (<FaTimes size={30} style={{color: "#fff"}}></FaTimes>)
                 :
-                (<FaBars size={20} style={{color: "#fff"}}></FaBars>)
+                (<FaBars size={30} style={{color: "#fff"}}></FaBars>)
                 }
                 
             </div>
